@@ -13,6 +13,8 @@
 		6BD3BA3522397A580036D2DB /* snakeListTableViewBrianW.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BD3BA3322397A580036D2DB /* snakeListTableViewBrianW.xcdatamodeld */; };
 		6BD3BA3722397A5A0036D2DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3BA3622397A5A0036D2DB /* Assets.xcassets */; };
 		6BD3BA3A22397A5A0036D2DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3BA3822397A5A0036D2DB /* LaunchScreen.storyboard */; };
+		6BD3BA4722397C710036D2DB /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD3BA4522397C710036D2DB /* CustomCellTableViewCell.swift */; };
+		6BD3BA4822397C710036D2DB /* CustomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3BA4622397C710036D2DB /* CustomCellTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6BD3BA3622397A5A0036D2DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BD3BA3922397A5A0036D2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BD3BA3B22397A5A0036D2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BD3BA4522397C710036D2DB /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		6BD3BA4622397C710036D2DB /* CustomCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				6BD3BA3822397A5A0036D2DB /* LaunchScreen.storyboard */,
 				6BD3BA3B22397A5A0036D2DB /* Info.plist */,
 				6BD3BA3322397A580036D2DB /* snakeListTableViewBrianW.xcdatamodeld */,
+				6BD3BA4522397C710036D2DB /* CustomCellTableViewCell.swift */,
+				6BD3BA4622397C710036D2DB /* CustomCellTableViewCell.xib */,
 			);
 			path = snakeListTableViewBrianW;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				6BD3BA3A22397A5A0036D2DB /* LaunchScreen.storyboard in Resources */,
 				6BD3BA3722397A5A0036D2DB /* Assets.xcassets in Resources */,
+				6BD3BA4822397C710036D2DB /* CustomCellTableViewCell.xib in Resources */,
 				6BD3BA3222397A580036D2DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				6BD3BA3522397A580036D2DB /* snakeListTableViewBrianW.xcdatamodeld in Sources */,
 				6BD3BA2F22397A580036D2DB /* ViewController.swift in Sources */,
+				6BD3BA4722397C710036D2DB /* CustomCellTableViewCell.swift in Sources */,
 				6BD3BA2D22397A580036D2DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
