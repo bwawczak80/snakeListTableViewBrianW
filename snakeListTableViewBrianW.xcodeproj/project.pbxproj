@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BD3BA2D22397A580036D2DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD3BA2C22397A580036D2DB /* AppDelegate.swift */; };
+		6BD3BA2F22397A580036D2DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD3BA2E22397A580036D2DB /* ViewController.swift */; };
+		6BD3BA3222397A580036D2DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3BA3022397A580036D2DB /* Main.storyboard */; };
+		6BD3BA3522397A580036D2DB /* snakeListTableViewBrianW.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BD3BA3322397A580036D2DB /* snakeListTableViewBrianW.xcdatamodeld */; };
+		6BD3BA3722397A5A0036D2DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3BA3622397A5A0036D2DB /* Assets.xcassets */; };
+		6BD3BA3A22397A5A0036D2DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3BA3822397A5A0036D2DB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BD3BA2922397A580036D2DB /* snakeListTableViewBrianW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snakeListTableViewBrianW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD3BA2C22397A580036D2DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BD3BA2E22397A580036D2DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BD3BA3122397A580036D2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BD3BA3422397A580036D2DB /* snakeListTableViewBrianW.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = snakeListTableViewBrianW.xcdatamodel; sourceTree = "<group>"; };
+		6BD3BA3622397A5A0036D2DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BD3BA3922397A5A0036D2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BD3BA3B22397A5A0036D2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BD3BA2622397A580036D2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BD3BA2022397A580036D2DB = {
+			isa = PBXGroup;
+			children = (
+				6BD3BA2B22397A580036D2DB /* snakeListTableViewBrianW */,
+				6BD3BA2A22397A580036D2DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BD3BA2A22397A580036D2DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BD3BA2922397A580036D2DB /* snakeListTableViewBrianW.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BD3BA2B22397A580036D2DB /* snakeListTableViewBrianW */ = {
+			isa = PBXGroup;
+			children = (
+				6BD3BA2C22397A580036D2DB /* AppDelegate.swift */,
+				6BD3BA2E22397A580036D2DB /* ViewController.swift */,
+				6BD3BA3022397A580036D2DB /* Main.storyboard */,
+				6BD3BA3622397A5A0036D2DB /* Assets.xcassets */,
+				6BD3BA3822397A5A0036D2DB /* LaunchScreen.storyboard */,
+				6BD3BA3B22397A5A0036D2DB /* Info.plist */,
+				6BD3BA3322397A580036D2DB /* snakeListTableViewBrianW.xcdatamodeld */,
+			);
+			path = snakeListTableViewBrianW;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BD3BA2822397A580036D2DB /* snakeListTableViewBrianW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BD3BA3E22397A5A0036D2DB /* Build configuration list for PBXNativeTarget "snakeListTableViewBrianW" */;
+			buildPhases = (
+				6BD3BA2522397A580036D2DB /* Sources */,
+				6BD3BA2622397A580036D2DB /* Frameworks */,
+				6BD3BA2722397A580036D2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snakeListTableViewBrianW;
+			productName = snakeListTableViewBrianW;
+			productReference = 6BD3BA2922397A580036D2DB /* snakeListTableViewBrianW.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BD3BA2122397A580036D2DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Brian Wawczak";
+				TargetAttributes = {
+					6BD3BA2822397A580036D2DB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BD3BA2422397A580036D2DB /* Build configuration list for PBXProject "snakeListTableViewBrianW" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BD3BA2022397A580036D2DB;
+			productRefGroup = 6BD3BA2A22397A580036D2DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BD3BA2822397A580036D2DB /* snakeListTableViewBrianW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BD3BA2722397A580036D2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD3BA3A22397A5A0036D2DB /* LaunchScreen.storyboard in Resources */,
+				6BD3BA3722397A5A0036D2DB /* Assets.xcassets in Resources */,
+				6BD3BA3222397A580036D2DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BD3BA2522397A580036D2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD3BA3522397A580036D2DB /* snakeListTableViewBrianW.xcdatamodeld in Sources */,
+				6BD3BA2F22397A580036D2DB /* ViewController.swift in Sources */,
+				6BD3BA2D22397A580036D2DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BD3BA3022397A580036D2DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD3BA3122397A580036D2DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BD3BA3822397A5A0036D2DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD3BA3922397A5A0036D2DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BD3BA3C22397A5A0036D2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BD3BA3D22397A5A0036D2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BD3BA3F22397A5A0036D2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VLL5PXFDUH;
+				INFOPLIST_FILE = snakeListTableViewBrianW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianwawczak.snakeListTableViewBrianW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BD3BA4022397A5A0036D2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VLL5PXFDUH;
+				INFOPLIST_FILE = snakeListTableViewBrianW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianwawczak.snakeListTableViewBrianW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BD3BA2422397A580036D2DB /* Build configuration list for PBXProject "snakeListTableViewBrianW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD3BA3C22397A5A0036D2DB /* Debug */,
+				6BD3BA3D22397A5A0036D2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BD3BA3E22397A5A0036D2DB /* Build configuration list for PBXNativeTarget "snakeListTableViewBrianW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD3BA3F22397A5A0036D2DB /* Debug */,
+				6BD3BA4022397A5A0036D2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6BD3BA3322397A580036D2DB /* snakeListTableViewBrianW.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6BD3BA3422397A580036D2DB /* snakeListTableViewBrianW.xcdatamodel */,
+			);
+			currentVersion = 6BD3BA3422397A580036D2DB /* snakeListTableViewBrianW.xcdatamodel */;
+			path = snakeListTableViewBrianW.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6BD3BA2122397A580036D2DB /* Project object */;
+}
