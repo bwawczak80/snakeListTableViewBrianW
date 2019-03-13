@@ -19,17 +19,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fCx-nd-mGW">
-                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <rect key="frame" x="0.0" y="176" width="375" height="491"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="koe-Wc-lI7"/>
                                 </connections>
                             </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bp" translatesAutoresizingMaskIntoConstraints="NO" id="nud-jG-iPu">
+                                <rect key="frame" x="0.0" y="20" width="375" height="127"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ball Python List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lge-gO-u2D">
-                                <rect key="frame" x="0.0" y="20" width="375" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Xnn-Kq-aBa"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="147" width="375" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -37,13 +37,17 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="lge-gO-u2D" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="31k-BE-zZB"/>
-                            <constraint firstItem="fCx-nd-mGW" firstAttribute="top" secondItem="lge-gO-u2D" secondAttribute="bottom" id="Gwh-Is-lEA"/>
-                            <constraint firstItem="fCx-nd-mGW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="PeB-3d-634"/>
-                            <constraint firstItem="lge-gO-u2D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XKG-aG-nLw"/>
-                            <constraint firstItem="fCx-nd-mGW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dJf-Dr-RXQ"/>
-                            <constraint firstItem="lge-gO-u2D" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="oXf-dx-1nF"/>
-                            <constraint firstItem="fCx-nd-mGW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rdv-ef-aTw"/>
+                            <constraint firstItem="lge-gO-u2D" firstAttribute="top" secondItem="nud-jG-iPu" secondAttribute="bottom" id="02t-Fv-D7s"/>
+                            <constraint firstItem="lge-gO-u2D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="10b-Em-0ob"/>
+                            <constraint firstItem="fCx-nd-mGW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5Av-a8-tqU"/>
+                            <constraint firstItem="nud-jG-iPu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9O5-fZ-Fh4"/>
+                            <constraint firstItem="nud-jG-iPu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DlX-gr-NSg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fCx-nd-mGW" secondAttribute="bottom" id="GHy-HP-sOc"/>
+                            <constraint firstItem="fCx-nd-mGW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NrZ-48-XWC"/>
+                            <constraint firstItem="lge-gO-u2D" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="W0a-GP-17M"/>
+                            <constraint firstItem="fCx-nd-mGW" firstAttribute="top" secondItem="lge-gO-u2D" secondAttribute="bottom" id="ebh-Kn-5ue"/>
+                            <constraint firstItem="nud-jG-iPu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="t6f-7W-3oQ"/>
+                            <constraint firstItem="lge-gO-u2D" firstAttribute="top" secondItem="nud-jG-iPu" secondAttribute="bottom" id="xYO-Wh-oHT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -56,4 +60,7 @@
             <point key="canvasLocation" x="40.799999999999997" y="26.53673163418291"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bp" width="400" height="127"/>
+    </resources>
 </document>
